@@ -1,0 +1,650 @@
+body {
+font-family: "Montserrat", sans-serif;
+font-size: 14px;
+line-height: 21px;
+margin:0;
+
+}
+.page-header{  
+  /*Бэкграунд 1 части сайта*/
+width: 1920px;
+height: 900px;
+background-image: url(/Balleto/img/bgc.png);
+background-repeat: no-repeat;
+}
+
+
+.first-contact {
+margin: 0;
+padding: 0;
+width: 1110px;
+margin-left: 405px;
+margin-right: 405px;
+margin-bottom: 20px;
+display: flex;
+justify-content: space-between;
+
+}
+.first-contact a {
+
+font-size: 13px;
+line-height: 19.5px;
+text-decoration: none;
+color: #FFFFFF;
+margin-top: 30px;
+}                   /*Верх часть-1 */
+
+
+
+
+                    /*Начало 1 навигации*/ 
+ 
+.site-navigation-item {
+    position: relative;
+}                    
+
+.site-navigation {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+gap: 209px;
+justify-content: center;
+
+
+}
+.site-navigation-item a {
+text-decoration: none;
+font-size: 14px;
+line-height: 21px;
+color: #FFFFFF;
+display: block;
+padding-bottom: 15px;
+padding-top: 13px;
+}
+
+
+.border-1 {
+width: 1110px;
+margin: 0 auto;
+padding: 0;
+border: 1px solid #FFFFFF;
+box-sizing: border-box; 
+border-left: none;
+border-right: none;
+
+}
+.site-navigation-item:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -104.5px;
+    width: 1px;
+    background-color: #FFFFFF;
+}
+
+
+
+ /*Нижний дивS*/
+ .menu-bar-degustation {
+    width: 415px;
+    display: flex;
+    gap: 30px;
+    margin-top: 580px;
+    margin-left: 752px;
+    }
+    .menu-bar-degustation a {
+    font-size: 16px;
+    line-height: 19.5px;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #998431;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    }
+
+
+
+
+
+
+    
+    /* Идем дальше*/
+       
+     
+    .background-hero {
+    width: 1920px;
+    background-color: #282828;
+    
+    }
+
+    .main-content {
+    width: 1110px;
+    margin: 0 auto;
+    position: relative;
+    
+
+    }
+
+    .hero h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 36px;
+    line-height: 54px;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding: 160px;
+    padding-bottom: 80px;
+    position: relative;
+    
+
+    }
+
+   .lorem {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 50px;
+   }
+
+   .image {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 160px;
+   }
+  
+
+      /* Рамка 1*/
+   .main-content::before {
+    content: '';
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 1110px;    
+    height: 654px;    
+    border: 1px solid #ffffff;  
+    box-sizing: border-box;
+    pointer-events: none; 
+    transform: translate(-1px, -1px);       
+    }
+    /* Ниж подчеркивание*/ 
+
+    .hero h2::after {
+      content: '';
+      position: absolute;
+      bottom: +40px;        
+      left: 50%;
+      transform: translateX(-50%);      
+      width: 160px;          
+      height: 1px;     
+      background-color: #FFFFFF;
+    }
+    /*Далее , а далее я увидел что рамки можно было эксортировать , ладно ...ВЫДОХНУЛ*/
+
+    .background-two {
+     background-color: #E6E3C4;
+     width: 1920px;
+     height: 1038px;
+     position: relative;
+    }
+    .post {
+      width: 1110px;
+      position: relative;
+    }
+
+      .post p{
+      margin: 0;
+      padding: 0;
+      font-size: 16px;
+      line-height: 24px;
+      width: 347px;
+      padding-bottom: 30px;
+
+    }
+     .post-two {
+      margin: 0;
+      padding: 0;
+      font-size: 36px;
+      line-height: 54px;
+      padding-bottom: 60px;
+      font-family: "Playfair Display", serif;
+      position: relative;
+
+     }
+    .lorem-two {
+    white-space: nowrap;
+    margin-top: 30px;
+    }
+    .lorem-free {
+    white-space: nowrap;
+    margin-top: 30px;
+    
+    }
+    .link-container {
+      margin-top: 21px;
+    }
+
+    .link-container a{
+      
+      text-decoration: none;
+      font-size: 17px;
+      line-height: 19.5px;
+      
+      color: #FFFFFF;
+      background-color: #998431;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      text-transform: uppercase;
+      letter-spacing:2px;
+      }
+       .slider-gallery {
+       list-style: none;
+       margin: 0;
+       padding:0;
+       display: block;
+       display: flex;
+       gap: 30px;
+       width: 540px;
+       flex-wrap: wrap;
+       position: absolute;
+       top: 140px;
+       left: 975px
+       }
+     
+     .content-position {
+      padding-top: 140px;
+      margin-left: 405px;
+      }
+      /*Сверху и снизу отступы*/
+      .post::before,
+      .post::after {
+        content: '';
+        position: absolute;
+        left: 405px; 
+        width: 1110px;
+        height: 1px;
+        background-color: #998431; 
+      }
+      
+      .post::before {
+        top: 80px; 
+      }
+      
+      .post::after {
+        bottom: -80px; 
+      }
+    
+      /* под заголовком подчеркивание */
+       
+      .post-two::after {
+        content: '';
+        position: absolute;
+        left: 0px;
+       
+        width: 160px;
+        height: 1px;
+        background-color: #000; 
+        bottom: 30px;
+      }
+   /*ВОООБЩЕ НЕ УВЕРЕН ЗА ПРАВИЛЬНОСТЬ ЭТОГО РАЗДЕЛА, КАК БЫ ВРОДЕ бы НО ... */
+     .degustation-background {
+     margin: 0;
+     padding: 0;
+     width: 1920px;
+     height: 767px;
+     background-color: #282828;
+     position: relative;
+     }
+
+
+
+    .degustation-block {
+    width: 1110px;
+    margin: 0 auto;
+    position: relative;
+    }
+
+
+
+
+    .degustation {    
+    margin: 0;
+    padding: 0; 
+    font-family: "Playfair Display", serif;
+    font-size: 36px;
+    line-height: 54px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 70px;
+    position: relative;
+    }
+
+
+   .lorem-four {
+   font-size: 16px;
+   line-height: 24px;
+   color: #FFFFFF;
+   text-align: center;
+   padding-bottom: 81px;
+
+   }
+
+
+
+
+
+
+
+
+  /* ЭТО СТИЛИ ДЛЯ Форм*/  
+  .form-group {
+    margin-bottom: 30px;
+    text-align: center; /* Центрируем поля */
+  }
+  
+  .form-group-inline {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+
+  }
+  
+  .form-group-inline input {
+    width: 255px;
+    height: 30px;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: #282828;
+    color: #FFFFFF;
+    border: 1px solid #282828;
+    border-bottom: 1px solid #FFFFFF;
+    font-size: 13px;
+    line-height: 19.5px;
+  }
+  
+  .form-group-inline input[type="tel"] {
+    margin-left: 30px;
+  }
+  
+  .form-group select {
+    width: 541px;
+    height: 30px;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: #282828;
+    color: #FFFFFF;
+    border: 1px solid #282828;
+    border-bottom: 1px solid #FFFFFF;
+    appearance: none; 
+    margin-bottom: 15px;
+ 
+    
+    
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 541px;
+    height: 30px;
+    background-color: #282828;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+    margin: 0 auto; 
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 19.5px;
+    letter-spacing:1px;
+    box-sizing: content-box;
+    padding-top :15px;
+    padding-bottom: 15px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #444;
+  }
+
+
+
+
+
+
+
+
+
+    /*Картинки*/
+  .left-image {
+ position: absolute;
+ margin-left: 375px;
+ margin-top: 60px;
+  }
+  .right-image {
+    position: absolute;
+    margin-left: 1308px;
+    margin-top: 64px;
+  }
+
+
+
+
+
+
+
+
+
+  /*линии*/
+  .degustation::after {
+    content: '';
+    display: block;
+    width: 118px; 
+    height: 1px;
+    background-color: #FFFFFF; 
+    position: absolute;
+    bottom: 30px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+}
+ 
+.degustation::before {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 3px;
+  background-color: #C4C4C4; 
+  position: absolute;
+  top: 50%; 
+  left: 250px; 
+  transform: translateY(-50%); 
+  margin-top: 18px;
+}
+.degustation-background::after {
+  content: '';
+  display: block;
+  width: 103px; 
+  height: 3px;
+  background-color: #C4C4C4; 
+  position: absolute;
+ top: 129px;
+  left: 65%; 
+  transform: translateX(-50%); 
+}
+
+.degustation-background::before {
+
+  content: '';
+  display: block;
+  width: 1110px; 
+  height: 3px;
+  background-color: #C4C4C4; 
+  position: absolute;
+  bottom: 100px;
+  left: 50%; 
+  transform: translateX(-50%); 
+}
+
+.degustation-block::after {
+  content: '';
+  position: absolute;
+  top: 52%;
+  height: 347px;
+  width: 3px; 
+  background-color: #C4C4C4; 
+}
+
+.degustation-block::before {
+
+  content: '';
+  position: absolute;
+  top:43%;
+  height: 400px;
+  width: 3px; 
+  background-color: #C4C4C4; 
+  right: 0;
+}
+/* Заебался от этих линий , по коду думаю-хуета крипил к чему мог только бы сделать что то
+похожее */ 
+
+.footer-navigation-topics {
+margin: 0;
+padding: 0;
+list-style: none;
+display: flex;
+justify-content: center;
+gap: 60px;
+padding-top: 69px;
+position: relative;
+}
+
+
+.footer-navigation-item a {
+text-decoration: none;
+color: #FFFFFF;
+
+
+}
+
+.main-footer {
+width: 1920px;
+height: 220px;
+background-color: #998431;
+position: relative;
+}
+
+.footer-container {
+
+width: 1110px;
+margin: 0 auto;
+}
+
+
+.footer-navigation-topics::after {
+  content: '';
+  display: block;
+  width: 1110px; 
+  height: 1px;
+  background-color: #FFFFFF; 
+  position: absolute; 
+  top: 50px;
+}
+
+.footer-navigation-topics::before {
+  content: '';
+  display: block;
+  width: 1110px; 
+  height: 1px;
+  background-color: #FFFFFF; 
+  position: absolute; 
+  top: 110px;
+}
+
+
+.footer-navigation-topics-two {
+margin: 0;
+padding: 0;
+list-style: none;
+display: flex;
+gap: 113px;
+padding-top: 40px;
+padding-left: 95px;
+position: relative;
+
+
+}
+.footer-navigation-item-two a {
+text-decoration: none;
+color: #FFFFFF;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+}
+
+.footer-navigation-topics-two::after {
+  content: '';
+  display: block;
+  width: 1110px; 
+  height: 1px;
+  background-color: #FFFFFF; 
+  position: absolute; 
+  top: 110%;
+  left: 0px;
+}
+
+.footer-navigation-topics-two::before {
+  content: '';
+  position: absolute;
+  top: 20px;
+  height: 60px;
+  width: 1px; 
+  background-color: #FFFFFF; 
+  right: 759px;
+}
+.main-footer::before {
+  content: '';
+  position: absolute;
+  top: 110px;
+  height: 60px;
+  width: 1px; 
+  background-color: #FFFFFF; 
+  right: 925px;
+}
+.main-footer::after {
+  content: '';
+  position: absolute;
+  top: 110px;
+  height: 60px;
+  width: 1px; 
+  background-color: #FFFFFF; 
+  right: 670px;
+
+}
+
+
+
+
+.uppercase {
+text-transform: uppercase;
+}
+.social {
+  display: flex;
+  gap: 35px;
+}
+
+
+a:hover {
+  opacity: 0.7;
+}
+a:active {
+  opacity: 0.5;
+}
